@@ -4,12 +4,9 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "node server",
-    "heroku-prebuild": "npm install --dev"
+    "start": "webpack-dev-server"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "path": "^0.12.7",
     "phaser": "^3.15.1"
   },
   "devDependencies": {
