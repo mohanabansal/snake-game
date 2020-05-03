@@ -159,8 +159,8 @@ function create() {
         food.eat();
         scoreText += 5;
         score.setText('Score:'+ scoreText)
-        if(food.total % 5 === 0) {
-          this.speed -= 10;
+        if(this.speed >= 10 && food.total % 5 === 0) {
+          this.speed -= 5;
         }
       }
     }
